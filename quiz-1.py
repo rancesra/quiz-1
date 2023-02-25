@@ -1,5 +1,5 @@
 # programa para implementar los operadores aritmeticos
-import math
+
 print("----------------------------------------------")
 print("-------------INVERTIR NUMERO------------------")
 print("----------------------------------------------")
@@ -9,13 +9,12 @@ print("----------------------------------------------")
 n = int(input("DIGITE EL VALOR: "))
 
 # processing
-
-mod = n//137
 x =  n%10
 y = n//10
 p = y%10
+q = n//100
 
-ni = x*100 + p*10 + mod*1
+ni = x*100 + p*10 + q
 
 #output
 
@@ -25,3 +24,5 @@ print("----------------------------------------------")
 
 
 print ("valor invertido: " + str(ni))
+
+
